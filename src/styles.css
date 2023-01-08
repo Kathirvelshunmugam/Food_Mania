@@ -1,0 +1,19 @@
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", "Times New Roman", serif;
+}
+@supports (font-variation-settings: normal) {
+  html {
+    color: black;
+    font-family: "Inter var", "Times New Roman", serif;
+  }
+}
+body {
+  background-color: rgb(210, 180, 238);
+  font-family: Inter, sans-serif;
+}
+.App {
+  margin: auto;
+  max-width: 750px;
+  text-align: center;
+}
